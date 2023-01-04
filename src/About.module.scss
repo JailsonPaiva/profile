@@ -1,0 +1,34 @@
+.aboutContainer {
+
+    margin-top: 9rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.87rem;
+
+
+    & div {
+        max-width: 27.81rem;
+        
+        & h3 {
+            font-size: 2.5rem;
+
+            margin-bottom: 3rem;
+
+            & abbr {
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+
+        & p {
+            font-size: 1rem;
+            text-align: justify;
+        }
+    }
+
+    & img {
+        max-width: 36.12rem;
+    }
+}
