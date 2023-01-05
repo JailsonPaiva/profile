@@ -32,3 +32,17 @@
         max-width: 36.12rem;
     }
 }
+
+
+@media (max-width: 950px) {
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .aboutContainer img {
+        max-width: 350px;
+    }
+}
