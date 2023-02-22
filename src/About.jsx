@@ -11,4 +11,4 @@ export function About() {
             <img src="https://github.com/JailsonPaiva.png" alt="Foto de perfil" />
         </section>
     );
-}
+} 
