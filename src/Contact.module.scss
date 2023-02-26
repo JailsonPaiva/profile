@@ -1,0 +1,53 @@
+.contactContainer {
+    max-width: 100%;
+    padding: 10rem 0;
+
+    display: flex;
+    justify-content: center;
+
+    & form {
+        width: 50%;
+        padding-bottom: 3rem;
+        
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px solid white;
+
+        & label {
+            margin: 4.18rem 0 .6rem;
+
+
+            font-size: 1.375rem;
+            color: var(--white);
+            text-align: start;
+            
+        }
+        & select, input {
+            width: 49.437rem;
+            height: 1.6rem;
+        }
+ 
+        & select, input, .mensage {
+            padding-left: 2rem;
+            border: none;
+            border-radius: 5px;
+
+        }
+
+        & input::placeholder, .mensage::placeholder {
+            color: var(--black);
+        }
+
+        & .mensage {
+            width: 49.437rem;
+            max-width: 49.437rem;
+            height: 20rem;
+
+            padding-top: 2rem;
+        }
+    }
+}

@@ -15,7 +15,7 @@ export default function App() {
               <a href="#" className={styles.Active}>HOME</a>
             </li>
             <li>
-              <a href="#">SOBRE</a>
+              <a href={aboutSection}>SOBRE</a>
             </li>
             <li>
               <a href="#">PORJETOS</a>

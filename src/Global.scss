@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
 :root {
@@ -27,6 +29,21 @@
 
 body {
     background: var(--body-background);
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               
+}
+
+body::-webkit-scrollbar-track {
+background: var(--white);        
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: var(--body-background);
+border-radius: 20px;       
+border: 1px solid var(--white); 
 }
 
 
@@ -49,5 +66,4 @@ a {
 ul,ol,li {
     list-style-type: none;
 }
-
 
