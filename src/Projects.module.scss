@@ -1,53 +1,14 @@
 .mainContainer {
-    margin-top: 12.62rem;
+    // margin-top: 12.62rem;
 
     display: flex;
     justify-content: center;
     flex-direction: column;
 
-    & .title {
-        width: 100%;
-        height: 7.87rem;
 
-        position: relative;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-        h2 {
-            font-size: 2.5rem;
-
-            &::after, &::before {
-                width: 50%;
-                height: 1px;
-
-                content: '';
-                position: absolute;
-                bottom: 1px;
-
-                border-bottom: 2px solid var(--white);
-            }
-
-            &::before {
-                top: 0;
-                right: 0;
-            }
-
-            &::after {
-                left: 0;
-            }
-        }
-
-        .letterName {
-            font-weight: normal;
-            color: var(--red-big-j);
-            text-shadow: -2px 1px 2px   var(--shadow-letter);
-        }
-    }
 
     & .projectContainer {
-        margin-top: 16.43rem;
+        margin-top: 10rem;
         padding: 0 10rem;
 
         display: flex;
@@ -59,8 +20,51 @@
         position: relative;
 
         // border: 1px solid red;
-        
-        .projectLeft, .projectRight  {
+
+        & .title {
+            width: 100%;
+            height: 7.87rem;
+
+            position: relative;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h2 {
+                font-size: 2.5rem;
+
+                &::after,
+                &::before {
+                    width: 50%;
+                    height: 1px;
+
+                    content: '';
+                    position: absolute;
+                    bottom: 1px;
+
+                    border-bottom: 2px solid var(--white);
+                }
+
+                &::before {
+                    top: 0;
+                    right: 0;
+                }
+
+                &::after {
+                    left: 0;
+                }
+            }
+
+            .letterName {
+                font-weight: normal;
+                color: var(--red-big-j);
+                text-shadow: -2px 1px 2px var(--shadow-letter);
+            }
+        }
+
+        .projectLeft,
+        .projectRight {
             max-width: 100%;
 
             display: flex;
@@ -68,10 +72,11 @@
             justify-content: center;
             flex-direction: row;
             gap: 3.31rem;
-            
+
             // border: 1px solid #fff;
 
-            & div{ 
+
+            & div {
                 height: inherit;
                 max-width: 50%;
 
@@ -86,10 +91,10 @@
                 .letterName {
                     font-weight: normal;
                     color: var(--red-big-j);
-                    text-shadow: -2px 1px 2px   var(--shadow-letter);
+                    text-shadow: -2px 1px 2px var(--shadow-letter);
                 }
 
-                & p { 
+                & p {
                     font-size: 1.125rem;
                     text-align: justify;
                 }
@@ -113,8 +118,8 @@
 
             text-align: left;
         }
-        
-        
-        
+
+
+
     }
 }

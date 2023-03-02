@@ -3,9 +3,11 @@
     margin-top: 9rem;
     
     display: flex;
+    
     align-items: center;
     justify-content: space-evenly;
 
+    // border: 1px solid white;
     & div {
         max-width: 27.81rem;
         
@@ -23,6 +25,24 @@
         & p {
             font-size: 1rem;
             text-align: justify;
+        }
+
+        & .skillContainer {
+            margin-top: 1.2rem;
+
+            // border: 1px solid rgb(255, 0, 0);
+
+            & ul {
+                padding-top: 1rem;
+
+                display: flex;
+                gap: .5rem;
+
+                & li {
+                    font-size: 1.5rem;
+                    color: white;
+                }
+            }
         }
     }
 

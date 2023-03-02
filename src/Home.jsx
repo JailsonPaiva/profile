@@ -15,7 +15,7 @@ export default function App() {
               <a href="#" className={styles.Active}>HOME</a>
             </li>
             <li>
-              <a href={aboutSection}>SOBRE</a>
+              <a href="#">SOBRE</a>
             </li>
             <li>
               <a href="#">PORJETOS</a>
@@ -31,7 +31,7 @@ export default function App() {
       <section className={styles.sectionContainer}>
         <div>
           <p>OI, <br /> 
-          EU SOU <span>J</span>ailson, <br />
+          EU SOU JAILSON, <br />
           DESENVOLVEDOR WEB.</p>
           <span>Front-End | Back-end | Freelance</span>
 

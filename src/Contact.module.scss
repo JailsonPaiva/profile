@@ -27,8 +27,8 @@
             
         }
         & select, input {
-            width: 49.437rem;
-            height: 1.6rem;
+            width: 80%;
+            height: 2.5rem;
         }
  
         & select, input, .mensage {
@@ -43,11 +43,33 @@
         }
 
         & .mensage {
-            width: 49.437rem;
+            width: 80%;
             max-width: 49.437rem;
             height: 20rem;
 
             padding-top: 2rem;
+        }
+
+        & button {
+            width: 30%;
+            height: 2rem;
+            
+            font-weight: 600;
+            color: var(--white);
+
+            background-color: transparent;
+            border: 1px solid var(--white);
+            border-radius: 5px;
+
+            margin-top: 1.5rem;
+
+            transition: .2s ease-in;
+
+            &:hover {
+               color: var(--red-big-j);
+               border: 1px solid var(--red-big-j);
+
+            }
         }
     }
 }

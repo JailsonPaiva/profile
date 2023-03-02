@@ -9,11 +9,12 @@ import siteClone from './assets/siteClone.png'
 export function Projects() {
     return (
         <main className={styles.mainContainer}>
-            <div className={styles.title}>
-                <h2>PROJETOS</h2>
-            </div>
 
             <section className={styles.projectContainer}>
+                <div className={styles.title}>
+                    <h2>PRO<span className={styles.letterName}>J</span>ETOS</h2>
+                </div>
+                
                 <div className={styles.projectLeft}>
                     <img src={concipe} alt="CONCIPE" />
                     

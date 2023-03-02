@@ -20,11 +20,10 @@ export function Contact() {
                 <input type="email" name="email" id="email" placeholder='Digite aqui o seu e-mail'/>
                 
                 <label for="mensage">Mensagem</label>
-                <textarea name="mensage" id="mensage" className={styles.mensage} placeholder='Olá Jailson ...'>
-                
+                <textarea name="mensage" id="mensage" className={styles.mensage} placeholder='Olá Jailson ...'></textarea>
 
-                    
-                </textarea>
+                <button>ENVIAR</button>
+
             </form>
 
         </section>
