@@ -5,10 +5,13 @@ import concipe from './assets/concipe.png'
 import blog from './assets/blog.png'
 import myLinktree from './assets/myLinktree.png'
 import siteClone from './assets/siteClone.png'
+import { useState } from 'react'
 
 export function Projects() {
+ 
+
     return (
-        <main className={styles.mainContainer}>
+        <main className={styles.mainContainer} id='projects'>
 
             <section className={styles.projectContainer}>
                 <div className={styles.title}>

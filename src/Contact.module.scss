@@ -65,10 +65,29 @@
 
             transition: .2s ease-in;
 
-            &:hover {
-               color: var(--red-big-j);
-               border: 1px solid var(--red-big-j);
 
+            & span {
+                color: var(--red-letter);
+                text-shadow: -2px 1px 3px var(--shadow-letter);
+
+                transition: color ease-in .4s;
+                transition: text-shadow ease-in .3s;
+                
+                margin-left: 1px;
+                // &:hover {
+                //     color: var(--white);
+                // }
+            }  
+
+
+            &:hover {
+               color: var(--red-letter);
+               border: 1px solid var(--red-letter);
+
+               & span {
+                color: var(--white);
+                text-shadow: none;
+               }
             }
         }
     }

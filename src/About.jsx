@@ -8,7 +8,7 @@ import styles from './About.module.scss';
 
 export function About() {
     return (
-        <section className={styles.aboutContainer}>
+        <section className={styles.aboutContainer} id='about'>
             <div>
                 <h3>Oi eu sou o <abbr title="Goku ㊗">Jailson✌</abbr>;</h3>
                 <p>Formado em Análise e Desenvolvimento de Sistemas apoixonado por tecnologia. Durante dois anos venho me desenvolvendo como profissional e aluno, buscando ser um grande Desenvolvedor onde eu possa contribuir com o meu trabalho.</p>

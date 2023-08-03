@@ -2,7 +2,7 @@ import styles from './Contact.module.scss'
 
 export function Contact() {
     return (
-        <section className={styles.contactContainer}>
+        <section className={styles.contactContainer} id='contact'>
             <form action="#">
             
                 <label for="mensage">Tipo de mensagem</label>
@@ -22,7 +22,7 @@ export function Contact() {
                 <label for="mensage">Mensagem</label>
                 <textarea name="mensage" id="mensage" className={styles.mensage} placeholder='Olá Jailson ...'></textarea>
 
-                <button>ENVIAR</button>
+                <button>E<span>N</span>VIAR</button>
 
             </form>
 
