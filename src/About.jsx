@@ -23,7 +23,7 @@ export function About() {
                 <p>Formado em Análise e Desenvolvimento de Sistemas apoixonado por tecnologia. Durante dois anos venho me desenvolvendo como profissional e aluno, buscando ser um grande Desenvolvedor onde eu possa contribuir com o meu trabalho.</p>
 
                 <div className={styles.skillContainer}>
-                    <h4>Hard Skills</h4>
+                    <h4>Principais Tecnologias</h4>
 
                     <ul>
                         <li>
